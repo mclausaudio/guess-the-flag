@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import './GuessForm.css';
 
 class GuessForm extends Component {
     constructor(props){

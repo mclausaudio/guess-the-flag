@@ -6,11 +6,8 @@ const FlagDisplay = (props) => {
     
     return (
         <div>
-        <h4>Which countries flag is this?  Answer for development purposes: {answer.name}</h4>
-        <img className="flag-display" src={answer.flag} />    
+            <img className="flag-display" src={answer.flag} alt='Which flag is this?'/>    
         </div>
-    
-    
     )
 }
 

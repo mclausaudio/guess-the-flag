@@ -1,4 +1,38 @@
+body {
+  background-color:'light-gray';
+}
+
 .App {
   text-align: center;
-  background-color:gray;
+  height:100vh;
+}
+
+.title-bar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:14rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.title {
+  font-family: 'Nova Cut', cursive;
+  font-size:5rem;
+  margin: 1rem;
+}
+
+.game-container {
+  padding:1rem;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+a:visited {
+  text-decoration: none;
+  color: teal;
 }
